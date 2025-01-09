@@ -307,7 +307,7 @@ const ResultPage: React.FC = () => {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className={`w-full py-2 rounded-md text-white transition-all ${
+                  className={`w-full py-2 flex justify-center items-center gap-2 rounded-md text-white transition-all ${
                     isSubmitting
                       ? "bg-gray-400 cursor-not-allowed"
                       : "bg-black hover:bg-gray-900"
