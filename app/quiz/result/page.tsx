@@ -20,7 +20,7 @@ const ResultPage: React.FC = () => {
   const searchParams = useSearchParams();
 
   const getPerformanceMessage = (percentage: number): string => {
-    if ((percentage = 100)) {
+    if ((percentage === 100)) {
       return "Rising Star✨";
     } else if (percentage >= 90) {
       return "Brilliant😍";
