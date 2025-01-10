@@ -43,6 +43,12 @@ export default function Home() {
           >
             Contact
           </Link>
+          <Link
+            href={"/videos"}
+            className="text-sm text-white/60 hover:text-white duration-150 transition-all hover:scale-105"
+          >
+            Videos
+          </Link>
         </div>
 
         <button
