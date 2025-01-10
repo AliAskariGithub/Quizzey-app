@@ -36,7 +36,7 @@ const ResultPage: React.FC = () => {
   };
 
   const getStatus = (percentage: number): string => {
-    return percentage >= 45 ? "Pass" : "Fail";
+    return percentage >= 45 ? "Passed😃" : "Failed😭";
   };
 
   const questions: Question[] = useMemo(() => {
@@ -217,7 +217,7 @@ const ResultPage: React.FC = () => {
               percentage >= 45 ? "text-green-500" : "text-red-500"
             }`}
           >
-            <strong>Status:</strong> {getStatus(percentage)}
+            <strong className="text-black">Status:</strong> {getStatus(percentage)}
           </p>
           <p className="text-base md:text-lg mb-4">
             <strong>Percentage:</strong> {percentage.toFixed(2)}%
