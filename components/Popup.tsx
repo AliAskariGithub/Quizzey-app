@@ -49,7 +49,7 @@ export default function Popup({ onClose }: PopupProps) {
             <div className="bg-gray-100 p-4 rounded-lg text-sm text-gray-700">
               <h3 className="font-semibold mb-2">Terms and Conditions:</h3>
               <ul className="list-disc pl-4 space-y-1">
-                <li>The quiz has a total time limit of 45 minutes.</li>
+                <li>The quiz has a total time limit of 20 minutes.</li>
                 <li>Each multiple-choice question (MCQ) carries 5 marks.</li>
                 <li>There is no negative marking for incorrect answers.</li>
                 <li>Once submitted, the quiz cannot be retaken.</li>
