@@ -6,7 +6,7 @@ const BeginnerLevel = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [userAnswers, setUserAnswers] = useState<string[]>([]);
-  const [timer, setTimer] = useState(2700);
+  const [timer, setTimer] = useState(1200);
   const router = useRouter();
 
   const questions = [
